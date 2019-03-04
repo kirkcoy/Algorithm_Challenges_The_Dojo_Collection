@@ -15,13 +15,6 @@ function shiftArray(arr,x){
 }
 console.log(shiftArray([2,4,6,8,10],3));
 
-// filter an array
-// function filterArray(arr,x){
-//     var filtered = array.filter(function(value, index, arr){
-//     return value > 5;
-// }
-// console.log(filterArray([2,4,6,8,10],3));
-
 //// Math Help
 function findX(m,b){
     // var y = 0;

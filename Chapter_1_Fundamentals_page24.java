@@ -122,7 +122,7 @@ iq = parseFloat(iq) + 0.01*parseFloat(days);
 console.log(iq);
 
 // Letter Grade
-// basic
+// basic if-else
 function letterGrade(score){
   if(score <= 100 && score >=90){
     console.log("Score: " + score + ". Grade A" );
@@ -226,6 +226,7 @@ letterGrade(78);
 letterGrade(62);
 letterGrade(55);
 
+// if-else
 function letterGrade(score){
     if(score <= 100 && score >=97){
         console.log("Score: " + score + ". Grade A+" );
@@ -239,41 +240,22 @@ function letterGrade(score){
         console.log("Score: " + score + ". Grade B" );
     } else if(score <= 82 && score >=80){
         console.log("Score: " + score + ". Grade B-" );
-    } else if(score <= 82 && score >=80){
+    } else if(score <= 79 && score >=77){
         console.log("Score: " + score + ". Grade C+" );
-    } else if(score <= 82 && score >=80){
+    } else if(score <= 76 && score >=73){
         console.log("Score: " + score + ". Grade C" );
-    } else if(score <= 82 && score >=80){
+    } else if(score <= 72 && score >=70){
         console.log("Score: " + score + ". Grade C-" );
-
-
+    } else if(score <= 69 && score >=67){
+        console.log("Score: " + score + ". Grade D+" );
+    } else if(score <= 66 && score >=63){
+        console.log("Score: " + score + ". Grade D" );
+    } else if(score <= 62 && score >=60){
+        console.log("Score: " + score + ". Grade D-" );
     } else if(score < 60){
         console.log("Score: " + score + ". Grade F" );
     }
-
-
-case score <= 79 && score >=77:
-    console.log("Score: " + score + ". Grade C+" );
-    break;
-case score <= 76 && score >=73:
-    console.log("Score: " + score + ". Grade C" );
-    break;
-case score <= 72 && score >=70:
-    console.log("Score: " + score + ". Grade C-" );
-    break;
-case score <= 69 && score >=67:
-    console.log("Score: " + score + ". Grade D+" );
-    break;
-case score <= 66 && score >=63:
-    console.log("Score: " + score + ". Grade D" );
-    break;
-case score <= 62 && score >=60:
-    console.log("Score: " + score + ". Grade D-" );
-    break;
-default:
-    console.log("Score: " + score + ". Grade F" );
 }
-
 letterGrade(100);
 letterGrade(98);
 letterGrade(97);

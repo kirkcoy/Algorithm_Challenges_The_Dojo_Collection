@@ -44,8 +44,6 @@ console.log(factorialRecursive(1));
 console.log(factorialRecursive(3));
 console.log(factorialRecursive(4));
 console.log(factorialRecursive(5));
-  
-
 // notes
 // num = 3
 // 		\								   ; = 3*(2) = 6 ; return 6

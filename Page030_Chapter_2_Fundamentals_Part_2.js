@@ -1,7 +1,7 @@
 //// Tweleve-Bar Blues
 function twelveBarBlues(){
     for(let i = 1; i <= 12; i++){
-        console.log(i,"chick","boom","chick");
+        console.log(`${i},chick,boom,chick`);
     }
 }
 twelveBarBlues();
